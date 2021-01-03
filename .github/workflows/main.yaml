@@ -6,4 +6,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: docker://dkhamsing/awesome_bot:latest
       with:
-        args: --allow-redirect --allow-dupe --delay 1 --white-list www.vagrantup.com README.md
+        args: --allow-redirect --allow-dupe --request-delay 1 --white-list www.vagrantup.com README.md
